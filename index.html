@@ -11,17 +11,26 @@
 
   <body>
 
-    <audio src=""></audio>
+
     <h1>Audio Art</h1>
+
+
 
     <canvas id="canvas" width="640" height="500" > </canvas>
 
     <form id="controls">
-      <input type="button" id="microphone" value="Microphone">
+
+      <!-- <input id="audio_file" type="file" accept="audio/*"> -->
+      <audio id="audio_player" src=""></audio>
+      <!-- <p>
+        Tempo: <span id="tempo_output"></span>
+      </p> -->
 
       <input type="button" id="start" value="Start">
       <input type="button" id="stop" value="stop">
+      <br>
       <div>
+        <input type="button" id="microphone" value="Microphone">
         <a class="mute" id="">Mute</a>
       </div>
     <form>
