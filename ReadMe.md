@@ -19,4 +19,9 @@ the syntax can be referenced in the API docs of the related methods
 
 ## Adding soundcloud :
 https://codepen.io/DonKarlssonSan/post/fun-with-web-audio-api
-ß
+
+# run local drive to test avoice music error use in terminal
+ python -m SimpleHTTPServer
+
+ P5.js example:
+ https://p5js.org/examples/input-storing-input.html
