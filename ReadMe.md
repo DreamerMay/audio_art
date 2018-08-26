@@ -25,3 +25,7 @@ https://codepen.io/DonKarlssonSan/post/fun-with-web-audio-api
 
  P5.js example:
  https://p5js.org/examples/input-storing-input.html
+
+ ## BMP detector
+ https://github.com/chrisguttandin/web-audio-beat-detector
+ using npm install web-audio-beat-detector

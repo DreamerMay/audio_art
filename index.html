@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Audio Art</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="p5/p5.min.js"></script>
+    <script src="p5/addons/p5.dom.min.js"></script>
+    <script src="p5/addons/p5.sound.min.js"></script>
+    <script src="js/sketch.js"></script>
+    <script src="js/p5input.js"></script>
 
   </head>
 
@@ -14,17 +19,13 @@
 
     <h1>Audio Art</h1>
 
-
-
-    <canvas id="canvas" width="640" height="500" > </canvas>
+    <div id="audio_canvas" > </div>
 
     <form id="controls">
 
       <!-- <input id="audio_file" type="file" accept="audio/*"> -->
       <audio id="audio_player" src=""></audio>
-      <!-- <p>
-        Tempo: <span id="tempo_output"></span>
-      </p> -->
+
 
       <input type="button" id="start" value="Start">
       <input type="button" id="stop" value="stop">
